@@ -7,6 +7,8 @@ const navItems = document.querySelectorAll('.nav-item');
 const sel = document.getElementById('change');
 const changeMod =document.getElementById('bg-img');
 
+
+
 //Type writer effect+
 
 const TypeWriter=function(txtElement,words,wait=3000){
@@ -165,6 +167,8 @@ sel.addEventListener('click',function()
 
 if(mode===false && val==='DARK MODE')
 {
+
+// chbkMod.classList.add('bkcolor');
 changeMod.classList.add('mod');
 mode=true;
 //document.getElementById(elementID).innerHTML = "";
