@@ -459,7 +459,7 @@ main {
      #change
     {
     border:0px rgba(68, 68, 68, 1);
-    transform: translate(-65%,-4%);
+    transform: translate(-180%,-29%);
     font-size:30%;
     margin:0px;
     padding: 0px;
@@ -499,10 +499,11 @@ main {
 position:absolute;
 top:92%;
 left:89%;
-color:#000000;
+color:rgb(50,205,50);
 font-size:100%; 
 cursor:pointer;
 font-family: 'Turret Road', cursive;
+
 border:solid 2px rgba(68, 68, 68, 1);
 
 }

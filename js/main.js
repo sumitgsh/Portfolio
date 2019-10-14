@@ -165,7 +165,7 @@ sel.addEventListener('click',function()
 //console.log('clicked');
 //console.log(val);
 
-if(mode===false && val==='DARK MODE')
+if(mode===false && val==='LIGHT MODE')
 {
 
 // chbkMod.classList.add('bkcolor');
@@ -173,16 +173,16 @@ changeMod.classList.add('mod');
 mode=true;
 //document.getElementById(elementID).innerHTML = "";
 sel.innerHTML="";
-sel.insertAdjacentHTML('afterbegin','<span style="transition:ease-in 2s;color:#FFFAFA;">LIGHT MODE</span>');
-val='LIGHT MODE';
+sel.insertAdjacentHTML('afterbegin','<span style="transition:ease-in 2s;color:#FFFAFA;">DARK MODE</span>');
+val='DARK MODE';
 }
-else if(mode===true && val==='LIGHT MODE')
+else if(mode===true && val==='DARK MODE')
 {
   changeMod.classList.remove('mod');
   mode=false;
   sel.innerHTML="";
-  sel.insertAdjacentHTML('afterbegin','DARK MODE');
-  val='DARK MODE';
+  sel.insertAdjacentHTML('afterbegin','LIGHT MODE');
+  val='LIGHT MODE';
 }
 
 
